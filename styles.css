@@ -7,6 +7,10 @@
     
 }
 
+/* html,body{
+    overflow-x: hidden;
+} */
+
 *{
     margin: 0;
     padding: 0;
@@ -34,12 +38,18 @@
 
 
 body{
+    
+
     background-color: #fa4344;
     animation: color 10s linear forwards;
     animation-timeline: scroll();
     transition-duration: 1s;
     overflow-x: hidden;
 }
+
+/* .full-container{
+    overflow-x: hidden;
+} */
 
 .bod{
     margin-top: 20vh;
@@ -508,6 +518,11 @@ input{
     --val:75%;
     --top:63%;
     
+}
+
+
+.two{
+    left: 40% !important;
 }
 
 
